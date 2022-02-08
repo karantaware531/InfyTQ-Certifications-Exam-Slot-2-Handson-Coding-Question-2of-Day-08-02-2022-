@@ -10,8 +10,11 @@ Identify and print the string outstr, based on the below logic:
 Note: Lexicographical order is "abcde....xyz".
 INPUT FORMAT: String instr by Standard Input String.
 OUTPUT FORMAT: Print outstr to the Standard Output String.
+
 SAMPLE INPUT 1: temperature
+
 SAMPLE OUTPUT 1:aeeeu6mprrtt7
+
 EXPLAINATION:-For the given instr-the vowels present in the string are "e", "e", "a"," "u", "e". 
 Adding them to outstr based on the lexicographical ordering, outstr becomes "aeeeu". 
 The first vowel in outstr, fvowel, is "a" and the index position of the first occurrence "a" in instr,
@@ -20,8 +23,11 @@ The consonants present in instr are "t", "m", "p", "r", "t", "r".
 Adding them to outstr based on the lexicographical order, outstr becomes "aeeeu6mprrtt". 
 The last consonant in outstr, Iconsonant, is "t" and the index position of last occurrence of "t" in instr, 
 i.e.,"temperature", is 7.Add the index to outstr to get "aeeeu6mpmtt7"Hence the OUTPUT.
+
 SAMPLE INPUT 2:rhythm
+
 SAMPLE OUTPUT 2:NA-1hhmrty2
+
 EXPLAINATION:-For the given instr, there are no vowels. So add "NA" to outstr and append "-1" in place of index to get outstr as "NA-1".
 The consonants present in instr are "r", "h", "y", "t", "h", "m". 
 Adding them to outstr based on the lexicographical order, outstr becomes "NA-1hhmrty". 
